@@ -12,6 +12,7 @@
 		FB69193D221CDFFF00C6A17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB69193B221CDFFF00C6A17E /* Main.storyboard */; };
 		FB69193F221CE00100C6A17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB69193E221CE00100C6A17E /* Assets.xcassets */; };
 		FB691942221CE00100C6A17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB691940221CE00100C6A17E /* LaunchScreen.storyboard */; };
+		FB69194A221CEAC400C6A17E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB691949221CEAC400C6A17E /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FB69193E221CE00100C6A17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB691941221CE00100C6A17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB691943221CE00100C6A17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB691949221CEAC400C6A17E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FB691937221CDFFF00C6A17E /* AppDelegate.swift */,
 				FB691939221CDFFF00C6A17E /* ViewController.swift */,
+				FB691949221CEAC400C6A17E /* Game.swift */,
 				FB69193B221CDFFF00C6A17E /* Main.storyboard */,
 				FB69193E221CE00100C6A17E /* Assets.xcassets */,
 				FB691940221CE00100C6A17E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB69193A221CDFFF00C6A17E /* ViewController.swift in Sources */,
+				FB69194A221CEAC400C6A17E /* Game.swift in Sources */,
 				FB691938221CDFFF00C6A17E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RA9LXL3TPB;
 				INFOPLIST_FILE = APPLEPIE2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = student17.APPLEPIE2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RA9LXL3TPB;
 				INFOPLIST_FILE = APPLEPIE2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = student17.APPLEPIE2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
